@@ -1,0 +1,14 @@
+{
+  "name": "to_do_list",
+  "version": "1.0.0",
+  "description": "My To Do List App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "To-do"
+  ],
+  "author": "Naman Tyagi",
+  "license": "ISC"
+}
