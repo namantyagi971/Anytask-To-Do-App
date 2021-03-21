@@ -1,0 +1,137 @@
+/* this is my custom stylesheet for styling */
+
+/* making margin 0 and padding 10 px*/
+body{
+    margin :0px;
+    padding :10px;
+}
+
+/* opacity is 0.7 for showing animated 3-D background also within to do app */
+.container{
+   opacity: 0.7;
+}
+
+/* adding necessary styles for heading : Anytask To Do App */
+#page-heading{
+    text-align: center;
+    font-size: 3rem;
+    color:royalblue;
+}
+
+/* for horizontal line to distinguish heading and form of webpage */
+.to-do-form{
+    border-top: 2px solid slategray;
+}
+
+/* making a display task section scrollable and hiding overflow in horizontal direction */
+#display-task{
+    height:40vh;
+    overflow:scroll;
+    overflow-x: hidden;
+}
+
+/* since the justify-content : space between, the tasks description are not aligned in proper vertical fashion */
+/* To make them align in particular fashion. I have added necessary styling */
+.task-desc-and-task-due-date{
+    width:60%;
+    margin-left: 10px;
+}
+
+/* to distingush each task, i have added vertical line */
+.tasks{ 
+    border-top: 2px solid slategray;
+}
+
+/* necessary styling to display task-category */
+.task-category{
+    height:40px;
+    width :100px;
+    margin-top: 6px;
+    border-radius: 5px;
+    color:white;
+    text-align: center;
+    background-color: darkgoldenrod;
+    padding-top: 5px;
+    font-size: 1.2rem; 
+    font-family: Arial;
+}
+
+/* to increase the size of checkboxes */
+input[type="checkbox"]{
+    height:20px;
+    width:20px;
+}
+
+/* for hiding scrollbar  */
+#display-task::-webkit-scrollbar,body::-webkit-scrollbar{
+    display: none;
+}
+
+/* media queries to make the app responsive*/
+
+/* when the width of browser is less than 1028px, then increase the width of container to 75% */
+ @media screen and (max-width: 1028px){
+    .container{
+        width:75% !important;
+    }
+}
+
+/* when the width of browser is less than 694px, then increase the width of container to 75% */
+@media screen and (max-width: 694px){
+    .container{
+        width:100% !important;
+    }
+}
+
+/* decreasing the font-size of heading */
+@media screen and (max-width :510px){
+    #page-heading{
+        font-size: 2.4rem;
+    }
+}
+
+
+@media screen and (max-width:400px){
+    /* increasing the width of choose category and  due date to 100% */
+    .controls div{
+        width:100% !important;
+    }
+
+    /* adding some top margin to due date */
+    .controls .last-child{
+        margin-top: 4px;
+    }
+
+    /* making the add task and delete task button to appear in different line */
+    button{
+        display : block;
+        margin: auto;
+        width : 200px;
+    }
+
+    /* adding necessary margin */
+    #delete-task{
+        margin-top: 10px;
+    }
+
+    /* decreasing the size of heading further */
+    #page-heading{
+        font-size: 2rem;
+    }
+
+}
+/* till this point, the app is quite responsive to work on every device */
+/* but adding more responsiveness for my own satisfaction :) */
+
+@media screen and (max-width:245px){
+    /* decreasing the width of buttons*/
+    button{
+        width :100px;
+    } 
+
+    /* increasing the width of div containing task description and due date */
+    .task-desc-and-task-due-date{
+        width:80%;
+        margin-left: 0px;
+    }
+}
