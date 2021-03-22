@@ -19,16 +19,16 @@ A simple To Do web App
 # Screenshots of App
 
 ### App in Window
-<img src="/images for github/window1.jpg">
+<img src="images for github/window1.jpg">
 
 ### App in window on decreasing Browser Width
-<img src="https://github.com/namantyagi971/to_do_list/blob/master/images%20for%20githhub/window2.jpg">
+<img src="images for github/window2.jpg">
 
 ### App on Galaxy S5
-<img src="https://github.com/namantyagi971/to_do_list/blob/master/images%20for%20githhub/galaxys5.jpg">
+<img src="images for github/galaxys5.jpg">
 
 ### App on iPhone 5
-<img src="https://github.com/namantyagi971/to_do_list/blob/master/images%20for%20githhub/iphone5.jpg">
+<img src="images for github/iphone5.jpg">
 
 ### Responsiveness
-<img src="https://github.com/namantyagi971/to_do_list/blob/master/images%20for%20githhub/responsive.jpg">
+<img src="images for github/responsive.jpg">
