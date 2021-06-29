@@ -14,7 +14,7 @@ A simple To Do web App
 2. Fork,clone and open this repository in terminal/command prompt.
 3. Execute npm install.
 4. Execute npm start.
-5. Open your favourite broowser and go to <https://localhost:8000> 
+5. Open your favourite browser and go to <https://localhost:8000> 
 
 # Screenshots of App
 
