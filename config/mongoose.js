@@ -1,8 +1,10 @@
 /* require the mongoose module */
 const mongoose = require('mongoose');
 
+const mongodbURL = process.env.MONGODB_URL || 'mongodb://localhost/to_do_list_app_db';
+
 /* establishing connection to mongodb and added params to avoid deprecation warnings */
-mongoose.connect('mongodb://localhost/to_do_list_app_db',{useNewUrlParser:true,useUnifiedTopology:true});
+mongoose.connect(mongodbURL,{useNewUrlParser:true,useUnifiedTopology:true});
 
 /* acquire the connection */
 const db = mongoose.connection;

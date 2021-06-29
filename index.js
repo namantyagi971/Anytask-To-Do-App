@@ -11,7 +11,7 @@ const todo = require('./models/to_do');
 const app = express();
 
 /* port at which the server is running */
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 /* middleware to recognize incoming request object as string and arrays*/
 app.use(express.urlencoded({'extended':true}));
